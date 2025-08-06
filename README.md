@@ -146,10 +146,17 @@ my_tuple[0] = 10  # ❌ Error: 'tuple' object does not support item assignment
 - **SCENARIO 10:** Using for loop to loop through items() method
 
 
-
-
-
-
+### 07-If_Else_Elif.py
+- **SCENARIO 1:** Standard IF ELIF ELSE
+- **SCENARIO 2:** Standard IF ELIF ELSE -> AND
+- **SCENARIO 3:** Standard IF ELIF ELSE -> OR
+- **SCENARIO 4:** Standard IF ELIF ELSE -> NOT
+- **SCENARIO 5:** Object Identity
+- Test if 2 objects have the same identity basically means if they are the same object in memory.
+- What it means is that -> 2 object can be equal and not be the same object in memory
+- To determine the identity we use the `is` keyword.
+- **SCENARIO 6:** True/False -> Working with number that is 0
+- **SCENARIO 7:** True/False -> Working with number that is non zero
 
 
 

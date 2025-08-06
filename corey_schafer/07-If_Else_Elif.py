@@ -65,16 +65,13 @@ print("SCENARIO 5: Object Identity")
 print("Test if 2 objects have the same identity basically means if they are the same object in memory.")
 print("What it means is that -> 2 object can be equal and not be the same object in memory.")
 print("To determine the identity we use the `is` keyword.")
-
 a=[1,2,3]
 b=[1,2,3]
-
 print(id(a))
 print(id(b))
 print(a is b)
 print("-----------------------------------------------------")
 print("SCENARIO 6: True/False -> Working with number that is 0")
-
 condition=0
 if condition:
     print("True")
@@ -82,7 +79,6 @@ else:
     print("False")
 print("-----------------------------------------------------")
 print("SCENARIO 7: True/False -> Working with number that is non zero")
-
 condition=10
 if condition:
     print("True")
