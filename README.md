@@ -180,5 +180,3 @@ my_tuple[0] = 10  # ❌ Error: 'tuple' object does not support item assignment
 
 
 
-
-
