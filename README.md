@@ -138,6 +138,7 @@ my_tuple[0] = 10  # ❌ Error: 'tuple' object does not support item assignment
 - **SCENARIO 2:** Using get()
 - **SCENARIO 3:** Assigning value by specifying key -> If the key exist + Reassigning a different value for a key
 - **SCENARIO 4:** Using update() method -> this is to ADD/ UPDATE values in the dictionary.
+- This is much more efficient to do rather than manually placing the values in SCENARIO 3
 - **SCENARIO 5:** Using `del` keyword -> This is used to delete a specific key in the dictionary.
 - **SCENARIO 6:** Using pop() method.
 - **SCENARIO 7:** keys() method -> To display only keys inside the dictionary
@@ -157,6 +158,26 @@ my_tuple[0] = 10  # ❌ Error: 'tuple' object does not support item assignment
 - To determine the identity we use the `is` keyword.
 - **SCENARIO 6:** True/False -> Working with number that is 0
 - **SCENARIO 7:** True/False -> Working with number that is non zero
+
+### 08-Loops.py
+- **SCENARIO 1:** for loop
+- **SCENARIO 2:** for loop -> break
+- break -> Immediately exit the loop entirely, no matter if there are more iterations left.
+- break -> Loop stops running.
+- **SCENARIO 3:** for loop -> continue
+- continue -> Skip the rest of the code in the current iteration and go to the next iteration.
+- continue -> Loop keeps running, just skips one turn.
+- **SCENARIO 4:** for loop -> Loop within Loop
+- **SCENARIO 5:** for loop -> range(start,end-1)
+- start -> inclusive
+- end -> is not inclusive
+- **SCENARIO 6:** while loop
+- **SCENARIO 7:** while loop -> break
+
+
+
+
+
 
 
 
